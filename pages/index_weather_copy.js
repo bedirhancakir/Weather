@@ -7,17 +7,12 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { RiMenu4Line } from 'react-icons/ri';
-import { SiWebflow } from 'react-icons/si';
-import { WiCloudy, WiDayCloudy, WiDaySunny } from 'react-icons/wi';
-import React, { useState, useRef } from 'react';
+import { FaGithub } from 'react-icons/fa';
+import React, { useState } from 'react';
 
 export default function Home() {
   const [chanceScreen, setChanceScreen] = useState(0);
-  // const timerRef = React.useRef;
 
-  // timerRef.current = setInterval(() => {
-     
-  // },msekle); 
   const weekScreen = () => {
     return (
       <div className={weather.swiper_panel}>
@@ -31,7 +26,7 @@ export default function Home() {
         <SwiperSlide className={weather.SwiperSlide}>
           <span className={weather.time}>Mon</span>
           <div className={weather.weather_icons}>
-            <WiDaySunny/>
+            <img src="images/main_cloudy.png" className={weather.img3_img}></img>
           </div>
           <span className={weather.degree}>18°</span>
         </SwiperSlide>
@@ -39,7 +34,7 @@ export default function Home() {
         <SwiperSlide className={weather.SwiperSlide}>
           <span className={weather.time}>Tue</span>
           <div className={weather.weather_icons}>
-          <WiCloudy/>
+          <img src="images/main_cloudy.png" className={weather.img3_img}></img>
           </div>
           <span className={weather.degree}>19°</span>
         </SwiperSlide>
@@ -47,7 +42,7 @@ export default function Home() {
         <SwiperSlide className={weather.SwiperSlide}>
           <span className={weather.time}>Wed</span>
           <div className={weather.weather_icons}>
-          <WiDaySunny/>
+          <img src="images/main_cloudy.png" className={weather.img3_img}></img>
           </div>
           <span className={weather.degree}>20°</span>
         </SwiperSlide>
@@ -55,7 +50,7 @@ export default function Home() {
         <SwiperSlide className={weather.SwiperSlide}>
           <span className={weather.time}>Thu</span>
           <div className={weather.weather_icons}>
-          <WiCloudy/>
+          <img src="images/main_cloudy.png" className={weather.img3_img}></img>
           </div>
           <span className={weather.degree}>20°</span>
         </SwiperSlide>
@@ -63,7 +58,7 @@ export default function Home() {
         <SwiperSlide className={weather.SwiperSlide}>
           <span className={weather.time}>Fri</span>
           <div className={weather.weather_icons}>
-          <WiDaySunny/>
+          <img src="images/main_cloudy.png" className={weather.img3_img}></img>
           </div>
           <span className={weather.degree}>21°</span>
           </SwiperSlide>
@@ -71,7 +66,7 @@ export default function Home() {
         <SwiperSlide className={weather.SwiperSlide}>
           <span className={weather.time}>Sat</span>
           <div className={weather.weather_icons}>
-          <WiDayCloudy/>
+          <img src="images/main_cloudy.png" className={weather.img3_img}></img>
           </div>
           <span className={weather.degree}>22°</span>
           </SwiperSlide>
@@ -79,7 +74,7 @@ export default function Home() {
         <SwiperSlide className={weather.SwiperSlide}>
           <span className={weather.time}>Sun</span>
           <div className={weather.weather_icons}>
-          <WiDayCloudy/>
+          <img src="images/main_cloudy.png" className={weather.img3_img}></img>
           </div>
           <span className={weather.degree}>23°</span>
           </SwiperSlide>
@@ -101,7 +96,7 @@ export default function Home() {
         <SwiperSlide className={weather.SwiperSlide}>
           <span className={weather.time}>Now</span>
           <div className={weather.weather_icons}>
-          <WiDaySunny/>
+            <img src="images/main_cloudy.png" className={weather.img3_img}></img>
           </div>
           <span className={weather.degree}>18°</span>
         </SwiperSlide>
@@ -109,7 +104,7 @@ export default function Home() {
         <SwiperSlide className={weather.SwiperSlide}>
           <span className={weather.time}>07:00</span>
           <div className={weather.weather_icons}>
-            <WiDayCloudy/>
+          <img src="images/main_cloudy.png" className={weather.img3_img}></img>
           </div>
           <span className={weather.degree}>19°</span>
         </SwiperSlide>
@@ -117,7 +112,7 @@ export default function Home() {
         <SwiperSlide className={weather.SwiperSlide}>
           <span className={weather.time}>08:00</span>
           <div className={weather.weather_icons}>
-          <WiDayCloudy/>
+          <img src="images/main_cloudy.png" className={weather.img3_img}></img>
           </div>
           <span className={weather.degree}>20°</span>
         </SwiperSlide>
@@ -125,7 +120,7 @@ export default function Home() {
         <SwiperSlide className={weather.SwiperSlide}>
           <span className={weather.time}>09:00</span>
           <div className={weather.weather_icons}>
-          <WiCloudy/>
+          <img src="images/main_cloudy.png" className={weather.img3_img}></img>
           </div>
           <span className={weather.degree}>20°</span>
         </SwiperSlide>
@@ -133,7 +128,7 @@ export default function Home() {
         <SwiperSlide className={weather.SwiperSlide}>
           <span className={weather.time}>10:00</span>
           <div className={weather.weather_icons}>
-          <WiCloudy/>
+          <img src="images/main_cloudy.png" className={weather.img3_img}></img>
           </div>
           <span className={weather.degree}>21°</span>
           </SwiperSlide>
@@ -141,7 +136,7 @@ export default function Home() {
         <SwiperSlide className={weather.SwiperSlide}>
           <span className={weather.time}>11:00</span>
           <div className={weather.weather_icons}>
-          <WiDaySunny/>
+          <img src="images/main_cloudy.png" className={weather.img3_img}></img>
           </div>
           <span className={weather.degree}>22°</span>
           </SwiperSlide>
@@ -149,7 +144,7 @@ export default function Home() {
         <SwiperSlide className={weather.SwiperSlide}>
           <span className={weather.time}>12:00</span>
           <div className={weather.weather_icons}>
-          <WiCloudy/>
+          <img src="images/main_cloudy.png" className={weather.img3_img}></img>
           </div>
           <span className={weather.degree}>23°</span>
           </SwiperSlide>
@@ -169,7 +164,7 @@ export default function Home() {
 
       <main>
         <div className={weather.primary}>
-          <div> <SiWebflow/> </div>
+          <div> <FaGithub/> </div>
           <div> <RiMenu4Line/> </div>
         </div>
 
