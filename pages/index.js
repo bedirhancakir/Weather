@@ -17,7 +17,7 @@ export default function Home() {
 
   // timerRef.current = setInterval(() => {
      
-  // },100); 
+  // },120); 
   const weekScreen = () => {
     return (
       <div className={weather.swiper_panel}>
