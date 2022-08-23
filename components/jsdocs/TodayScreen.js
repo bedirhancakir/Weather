@@ -5,23 +5,21 @@ import moment from "moment-timezone"
 import "swiper/css";
 
 export default function TodayScreen() {
-  const [data, setData] = useState([]);
-  async function fetchMyAPI(requestUrl) {
-    try {
-      let response = await fetch(requestUrl);
-      if (response.status === 200) {
-        response = await response.json();
-        setData(response);
-      }
-    } catch (error) {
-      console.warn(error);
-    }
+  const [data, setData] = useState([])
+  const fetchData = () => {
+      fetch("http://api.weatherapi.com/v1/forecast.json?key=ba4b6030a4494543aa6143147221808&q=istanbul&days=7&aqi=no&alerts=no")
+          .then(response => {
+              return response.json()
+          })
+          .then(response => {
+              setData(response)
+          })
   }
 
   useEffect(() => {
-    fetchMyAPI('http://api.weatherapi.com/v1/forecast.json?key=ba4b6030a4494543aa6143147221808&q=istanbul&days=7&aqi=no&alerts=no')
-  }, []);
-  console.log("alertts: ",data?.current?.condition.icon)
+      fetchData()
+  }, [])
+  console.log("alertts: ",)
 
   return (
 
