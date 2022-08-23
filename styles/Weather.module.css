@@ -15,7 +15,8 @@
   background-color: #6a5bf4;
   border-radius: 50px;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
-	rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;;
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  ;
   overflow: hidden;
 }
 
@@ -30,10 +31,10 @@
 
 /* secondary css */
 .secondary .secondary_panel {
-  display:flex;  
-	align-items: center;
-	flex-direction: column;
-  color:#fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
 }
 
 .secondary_panel .main_degree {
@@ -90,11 +91,11 @@
 .curved_panel .sun {
   position: relative;
   height: 11px;
-	width: 11px;
-	border-radius: 50%;
-	margin: 0 0 0 37px;
-	background: #fff;
-	box-shadow: 0px 0px 5px 2px #fff;
+  width: 11px;
+  border-radius: 50%;
+  margin: 0 0 0 37px;
+  background: #fff;
+  box-shadow: 0px 0px 5px 2px #fff;
   bottom: 75px;
 }
 
@@ -111,8 +112,8 @@
 
 .tertiary .day_class_panel {
   display: flex;
-  justify-content:flex-start;
-  font-weight:700;
+  justify-content: flex-start;
+  font-weight: 700;
   border-bottom: 2px solid #e8e8e8;
 }
 
@@ -145,11 +146,11 @@
   font-weight: bold;
 }
 
-.tertiary .swiper_panel  {
+.tertiary .swiper_panel {
   padding: 20px 20px 20px 20px;
 }
 
-.swiper_panel  .SwiperSlide {
+.swiper_panel .SwiperSlide {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -162,14 +163,11 @@
 }
 
 .SwiperSlide .weather_icons {
-font-size: 45px;
-margin: 15px 0 0 0;
+  font-size: 45px;
+  margin: 15px 0 0 0;
 }
 
 .SwiperSlide .degree {
   font-size: 18px;
   font-weight: 400;
 }
-
-
-
