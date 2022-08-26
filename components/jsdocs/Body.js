@@ -33,14 +33,14 @@ export default function Body() {
                     <div>
                         <select className={weather.select_bar} value={selected} onChange={handleChange}>
                             {cities_data.cities.map(option => (
-                                <option key={option.value} value={option.value}>
+                                <option className={weather.options} key={option.value} value={option.value}>
                                     {option.city}
                                 </option>
                             ))}
                         </select>
                     </div>
                 </span>
-                <span className={weather.main_degree}>{data?.current?.temp_c}&deg;</span>
+                <span className={weather.main_degree}>{Math.round(data?.current?.temp_c)}&deg;</span>
                 <div className={weather.main_image}>
                     {
                         <img src={data?.current?.condition.icon} className={weather.weather_image}></img>
