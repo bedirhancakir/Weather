@@ -21,7 +21,7 @@
 }
 
 .sun_position {
- display: block;
+  display: block;
 }
 
 .sun_position .sun_time_bar {
@@ -66,6 +66,20 @@
   bottom: 75px;
 }
 
-.sun_position .svg{
+.sun_position .svg {
+  display: block;
+}
+
+.location_id .select_bar {
+  background-color: #6a5bf4;
+  border: 0;
+  border-radius: 50px;
+  font-size: 15px;
+  color: #fff;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
   display: block;
 }

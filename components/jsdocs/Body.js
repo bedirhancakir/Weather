@@ -31,7 +31,7 @@ export default function Body() {
             <div className={weather.secondary_panel}>
                 <span className={weather.location_id}>
                     <div>
-                        <select value={selected} onChange={handleChange}>
+                        <select className={weather.select_bar} value={selected} onChange={handleChange}>
                             {cities_data.cities.map(option => (
                                 <option key={option.value} value={option.value}>
                                     {option.city}
