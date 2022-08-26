@@ -2,27 +2,26 @@ import TWScreen from '../cssdocs/TWScreen.module.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import React, { useEffect, useState } from 'react'
 import moment from "moment-timezone"
+
 import "swiper/css";
 
 export default function TodayScreen() {
   const [data, setData] = useState([])
   const fetchData = () => {
-      fetch("http://api.weatherapi.com/v1/forecast.json?key=ba4b6030a4494543aa6143147221808&q=istanbul&days=7&aqi=no&alerts=no")
-          .then(response => {
-              return response.json()
-          })
-          .then(response => {
-              setData(response)
-          })
+    fetch("http://api.weatherapi.com/v1/forecast.json?key=ba4b6030a4494543aa6143147221808&q=adana&days=7&aqi=no&alerts=no")
+      .then(response => {
+        return response.json()
+      })
+      .then(response => {
+        setData(response)
+      })
   }
 
   useEffect(() => {
-      fetchData()
+    fetchData()
   }, [])
-  console.log("alertts: ",)
 
   return (
-
     <div className={TWScreen.swiper_panel}>
       <Swiper
         spaceBetween={50}

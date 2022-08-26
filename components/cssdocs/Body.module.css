@@ -7,12 +7,12 @@
 
 .secondary_panel .main_degree {
   font-size: 50px;
-  padding: 20px;
+  padding: 18px;
 }
 
 .secondary_panel .main_image {
-  width: 150px;
-  height: 150px;
+  width: 128px;
+  height: 128px;
 }
 
 .main_image .weather_image {
@@ -21,7 +21,7 @@
 }
 
 .sun_position {
-  height: 180px;
+ display: block;
 }
 
 .sun_position .sun_time_bar {
@@ -45,7 +45,6 @@
 }
 
 .curved_panel .curved {
-  /* display: flex; */
   position: relative;
   border: 1px solid #fff;
   border-bottom: 0;
@@ -65,4 +64,8 @@
   background: #fff;
   box-shadow: 0px 0px 5px 2px #fff;
   bottom: 75px;
+}
+
+.sun_position .svg{
+  display: block;
 }

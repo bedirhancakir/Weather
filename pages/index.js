@@ -8,7 +8,6 @@ import Body from '../components/jsdocs/Body';
 
 
 export default function Home() {
-
   return (
     <div className={weather.all_page}>
       <div className={weather.container}>
