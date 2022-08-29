@@ -1,26 +1,11 @@
 import TWScreen from '../cssdocs/TWScreen.module.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import moment from "moment-timezone"
-
 import "swiper/css";
 
-export default function TodayScreen() {
-  const [data, setData] = useState([])
-  const fetchData = () => {
-    fetch("http://api.weatherapi.com/v1/forecast.json?key=ba4b6030a4494543aa6143147221808&q=adana&days=7&aqi=no&alerts=no")
-      .then(response => {
-        return response.json()
-      })
-      .then(response => {
-        setData(response)
-      })
-  }
-
-  useEffect(() => {
-    fetchData()
-  }, [])
-
+export default function TodayScreen(props) {
+  const data = props.data
   return (
     <div className={TWScreen.swiper_panel}>
       <Swiper
@@ -28,9 +13,9 @@ export default function TodayScreen() {
         slidesPerView={5}
         className={TWScreen.swiper_panel}
       >
-        {data?.forecast?.forecastday[0].hour.map(value => {
+        {data?.forecast?.forecastday[0].hour.map((value, key) => {
           return (
-            <SwiperSlide className={TWScreen.SwiperSlide}>
+            <SwiperSlide key={key} className={TWScreen.SwiperSlide}>
               <span className={TWScreen.time}>{moment.unix(value.time_epoch).format("HH:mm")}</span>
               <div className={TWScreen.weather_icons}>
                 {
