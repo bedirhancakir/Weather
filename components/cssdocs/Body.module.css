@@ -8,7 +8,7 @@
 .secondary_panel .main_degree {
   font-size: 50px;
   padding: 18px;
- cursor: default;
+  cursor: default;
 }
 
 .secondary_panel .main_image {
@@ -85,14 +85,14 @@
   border-radius: 10px;
   font-family: 'Poppins', sans-serif;
   opacity: 0.9;
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;}
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
 
 .select_bar:hover {
-  opacity:0.8;
-} 
+  opacity: 0.8;
+}
 
 .options {
   font-size: 14px;
   font-weight: 550;
 }
-

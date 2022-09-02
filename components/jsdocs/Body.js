@@ -4,7 +4,7 @@ import cities_data from "../../cities.json"
 import Flooter from './Flooter';
 
 export default function Body() {
-    const [api, setApi] = useState("https://api.weatherapi.com/v1/forecast.json?key=ba4b6030a4494543aa6143147221808&q=istanbul&days=7&aqi=no&alerts=no")
+    const [api, setApi] = useState("https://api.weatherapi.com/v1/forecast.json?key=ba4b6030a4494543aa6143147221808&q=adana&days=7&aqi=no&alerts=no")
     const [data, setData] = useState([])
     const [selected, setSelected] = useState(cities_data.cities[0].city);
     const fetchData = () => {
@@ -26,6 +26,8 @@ export default function Body() {
         setApi("https://api.weatherapi.com/v1/forecast.json?key=ba4b6030a4494543aa6143147221808&q=" + event.target.value + "&days=7&aqi=no&alerts=no");
         setSelected(event.target.value);
     };
+
+
 
     return (
         <div className={weather.secondary}>
@@ -54,8 +56,14 @@ export default function Body() {
 
             <div className={weather.sun_position}>
                 <div className={weather.sun_time_bar}>
-                    <div className={weather.sun_time}><span className={weather.small}>Sunrise</span><span>{data?.forecast?.forecastday[0].astro.sunrise.split(" ")[0]}</span></div>
-                    <div className={weather.sun_time}><span className={weather.small}>Sunset</span><span>{data?.forecast?.forecastday[0].astro.sunset.split(" ")[0]}</span></div>
+                    <div className={weather.sun_time}>
+                        <span className={weather.small}>Sunrise</span>
+                        <span>{data?.forecast?.forecastday[0].astro.sunrise.split(" ")[0]}</span>
+                    </div>
+                    <div className={weather.sun_time}>
+                        <span className={weather.small}>Sunset</span>
+                        <span>{data?.forecast?.forecastday[0].astro.sunset.split(" ")[0]}</span>
+                    </div>
                 </div>
 
                 <div className={weather.curved_panel}>

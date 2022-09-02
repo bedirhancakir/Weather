@@ -6,6 +6,7 @@ import "swiper/css";
 
 export default function WeekScreen(props) {
   const data = props.data
+
   return (
     <div className={TWScreen.swiper_panel}>
       <Swiper
