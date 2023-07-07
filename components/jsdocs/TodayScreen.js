@@ -1,6 +1,6 @@
 import TWScreen from '../cssdocs/TWScreen.module.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import React, { useState } from 'react'
+import React from 'react'
 import moment from "moment-timezone"
 import "swiper/css";
 
@@ -15,7 +15,6 @@ export default function TodayScreen(props) {
         className={TWScreen.swiper_panel}
       >
         {data?.forecast?.forecastday[0].hour.map((value, key) => {
-          console.log("CONSOLE", now == (moment.unix(value.time_epoch).format("HH")))
           return (
             <SwiperSlide key={key} className={TWScreen.SwiperSlide}>
               <span className={TWScreen.time}>{moment.unix(value.time_epoch).format("HH:mm")}</span>
