@@ -1,0 +1,11 @@
+.primary {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 32px 10px 32px;
+  color: #fff;
+  font-size: 28px;
+}
+
+.header_icons {
+  cursor: pointer;
+}

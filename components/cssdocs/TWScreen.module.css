@@ -1,0 +1,31 @@
+  .swiper_panel {
+    padding: 20px 20px 20px 20px;
+  }
+
+  .swiper_panel .SwiperSlide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .SwiperSlide .time {
+    font-size: 12px;
+  }
+
+  .SwiperSlide .weather_icons {
+    width: 50px;
+    height: 50px;
+    margin: 15px 0 15px 0;
+  }
+
+  .weather_mood {
+    height: 100%;
+    width: 100%;
+  }
+
+  .SwiperSlide .degree {
+    font-size: 18px;
+    font-weight: 400;
+  }

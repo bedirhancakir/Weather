@@ -1,0 +1,247 @@
+{
+    "cities": [
+        {
+            "city": "ADANA"
+        },
+        {
+            "city": "ADIYAMAN"
+        },
+        {
+            "city": "AFYONKARAHİSAR"
+        },
+        {
+            "city": "AGRI"
+        },
+        {
+            "city": "AMASYA"
+        },
+        {
+            "city": "ANKARA"
+        },
+        {
+            "city": "ANTALYA"
+        },
+        {
+            "city": "ARTVİN"
+        },
+        {
+            "city": "AYDIN"
+        },
+        {
+            "city": "BALIKESİR"
+        },
+        {
+            "city": "BİLECİK"
+        },
+        {
+            "city": "BİNGOL"
+        },
+        {
+            "city": "BİTLİS"
+        },
+        {
+            "city": "BOLU"
+        },
+        {
+            "city": "BURDUR"
+        },
+        {
+            "city": "BURSA"
+        },
+        {
+            "city": "CANAKKALE"
+        },
+        {
+            "city": "CANKIRI"
+        },
+        {
+            "city": "CORUM"
+        },
+        {
+            "city": "DENİZLİ"
+        },
+        {
+            "city": "DİYARBAKIR"
+        },
+        {
+            "city": "EDİRNE"
+        },
+        {
+            "city": "ELAZIG"
+        },
+        {
+            "city": "ERZİNCAN"
+        },
+        {
+            "city": "ERZURUM"
+        },
+        {
+            "city": "ESKİSEHİR"
+        },
+        {
+            "city": "GAZİANTEP"
+        },
+        {
+            "city": "GİRESUN"
+        },
+        {
+            "city": "GÜMÜŞHANE"
+        },
+        {
+            "city": "HAKKARİ"
+        },
+        {
+            "city": "HATAY"
+        },
+        {
+            "city": "ISPARTA"
+        },
+        {
+            "city": "MERSİN"
+        },
+        {
+            "city": "İSTANBUL"
+        },
+        {
+            "city": "İZMİR"
+        },
+        {
+            "city": "KARS"
+        },
+        {
+            "city": "KASTAMONU"
+        },
+        {
+            "city": "KAYSERİ"
+        },
+        {
+            "city": "KIRKLARELİ"
+        },
+        {
+            "city": "KIRSEHİR"
+        },
+        {
+            "city": "KOCAELİ"
+        },
+        {
+            "city": "KONYA"
+        },
+        {
+            "city": "KÜTAHYA"
+        },
+        {
+            "city": "MALATYA"
+        },
+        {
+            "city": "MANİSA"
+        },
+        {
+            "city": "KAHRAMANMARAS"
+        },
+        {
+            "city": "MARDİN"
+        },
+        {
+            "city": "MUGLA"
+        },
+        {
+            "city": "MUS"
+        },
+        {
+            "city": "NEVSEHİR"
+        },
+        {
+            "city": "NİGDE"
+        },
+        {
+            "city": "ORDU"
+        },
+        {
+            "city": "RİZE"
+        },
+        {
+            "city": "SAKARYA"
+        },
+        {
+            "city": "SAMSUN"
+        },
+        {
+            "city": "SİİRT"
+        },
+        {
+            "city": "SİNOP"
+        },
+        {
+            "city": "SİVAS"
+        },
+        {
+            "city": "TEKİRDAG"
+        },
+        {
+            "city": "TOKAT"
+        },
+        {
+            "city": "TRABZON"
+        },
+        {
+            "city": "TUNCELİ"
+        },
+        {
+            "city": "SANLIURFA"
+        },
+        {
+            "city": "USAK"
+        },
+        {
+            "city": "VAN"
+        },
+        {
+            "city": "YOZGAT"
+        },
+        {
+            "city": "ZONGULDAK"
+        },
+        {
+            "city": "AKSARAY"
+        },
+        {
+            "city": "BAYBURT"
+        },
+        {
+            "city": "KARAMAN"
+        },
+        {
+            "city": "KIRIKKALE"
+        },
+        {
+            "city": "BATMAN"
+        },
+        {
+            "city": "SIRNAK"
+        },
+        {
+            "city": "BARTIN"
+        },
+        {
+            "city": "ARDAHAN"
+        },
+        {
+            "city": "IGDIR"
+        },
+        {
+            "city": "YALOVA"
+        },
+        {
+            "city": "KARABÜK"
+        },
+        {
+            "city": "KİLİS"
+        },
+        {
+            "city": "OSMANİYE"
+        },
+        {
+            "city": "DÜZCE"
+        }
+    ]
+}

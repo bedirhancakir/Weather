@@ -1,0 +1,45 @@
+.tertiary {
+  background-color: #fff;
+  padding-top: 25px;
+  color: #000;
+  font-weight: bold;
+  font-size: 12px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.tertiary .day_class_panel {
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 700;
+  border-bottom: 2px solid #e8e8e8;
+}
+
+.tertiary button {
+  border: 0;
+  background-color: #fff;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+
+.tertiary button:focus {
+  border-bottom: 3px solid black;
+  font-weight: 500;
+  padding-bottom: 12px;
+}
+
+.day_class_panel .t_button {
+  padding-left: 40px;
+}
+
+.t_button .t {
+  font-weight: bold;
+}
+
+.day_class_panel .w_button {
+  padding-left: 8px;
+}
+
+.w_button .w {
+  font-weight: bold;
+}
