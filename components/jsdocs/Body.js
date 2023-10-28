@@ -4,7 +4,7 @@ import cities_data from "../../cities.json"
 import Flooter from './Flooter';
 
 export default function Body() {
-    const [api, setApi] = useState("http://api.weatherapi.com/v1/forecast.json?key=1ab18c8b12e6466ba79212859222909&q=adana&days=7&aqi=no&alerts=no")
+    const [api, setApi] = useState("http://api.weatherapi.com/v1/forecast.json?key=6026fed6c7fd4734861230110232510&q=adana&days=7&aqi=no&alerts=no")
     const [data, setData] = useState([])
     const [selected, setSelected] = useState(cities_data.cities[0].city);
     const fetchData = () => {
@@ -19,14 +19,11 @@ export default function Body() {
     useEffect(() => {
         fetchData()
     }, [api])
-
     const handleChange = event => {
         console.log(event.target.value);
-        setApi("http://api.weatherapi.com/v1/forecast.json?key=1ab18c8b12e6466ba79212859222909&q=" + event.target.value + "&days=7&aqi=no&alerts=no");
+        setApi("http://api.weatherapi.com/v1/forecast.json?key=6026fed6c7fd4734861230110232510&q=" + event.target.value + "&days=7&aqi=no&alerts=no");
         setSelected(event.target.value);
     };
-
-
 
     return (
         <div className={weather.secondary}>
